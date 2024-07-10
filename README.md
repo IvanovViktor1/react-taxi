@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# React-Taxi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web application allows users to book a taxi by selecting the taxi's starting address on an interactive map. Users can enter an address manually or select a point on the map. After selecting an address, available taxis are displayed on the map as green markers. The application uses a modern technology stack and provides an intuitive user interface.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will help you run a copy of the project on your local computer for development and testing. Follow these steps to set up your project.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run this application, you will need to install the following software:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Node.js (https://nodejs.org/)
+npm (Node Package Manager), which is usually installed with Node.js
 
-### `npm test`
+After installation, you can check their versions to make sure everything is installed correctly:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`bash`
+`node -v`
+`npm -v`
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+First, clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/IvanovViktor1/react-taxi.git
+cd react-taxi
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then install the required dependencies:
 
-### `npm run eject`
+`npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Launching the application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the development server, run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`npm start`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This will start the development server and the application will be available at http://localhost:3000.
 
-## Learn More
+### Working with the application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Order a Taxi: Enter the address in the "From" form or click on the map to select a pickup location. If the address is not found, a red marker with "Address Not Found" will appear.
+Crew Selection: Available crews will be displayed on the map as green markers. The list of eligible crews will be sorted by distance to the pickup point.
+Order Confirmation: After selecting the appropriate crew, click "Order". Your order information will be sent, and you will receive a confirmation.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technology stack
+
+The project uses the following technologies:
+
+- React - the library for user interfaces [React documentation](https://reactjs.org/)
+- Redux Toolkit - a set of tools for managing application state [Redux Toolkit documentation](https://redux-toolkit.js.org/)
+- React-Yandex-Map - a wrapper around the Yandex.Maps API, allows you to display Yandex.Maps in a React application [react-yandex-maps documentation](https://pbe-react-yandex-maps.vercel.app/)
+- TypeScript - JavaScript add-on for static code typing [TypeScript documentation](https://www.typescriptlang.org/)
+- Material-UI - UI component library [TypeScript documentation](https://mui.com/)
+
+## Authors
+
+Ivanov Viktor - GitHub profile (https://github.com/IvanovViktor1)
