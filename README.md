@@ -1,59 +1,59 @@
 # React-Taxi
 
-This web application allows users to book a taxi by selecting the taxi's starting address on an interactive map. Users can enter an address manually or select a point on the map. After selecting an address, available taxis are displayed on the map as green markers. The application uses a modern technology stack and provides an intuitive user interface.
+Это веб-приложение позволяет пользователям заказать такси, выбрав начальный адрес такси на интерактивной карте.  Пользователи могут ввести адрес вручную или выбрать точку на карте.  После выбора адреса доступные такси отображаются на карте зелеными маркерами.  Приложение использует современный стек технологий и предоставляет интуитивно понятный пользовательский интерфейс.
 
-## Getting Started
+## Инструкция
 
-These instructions will help you run a copy of the project on your local computer for development and testing. Follow these steps to set up your project.
+Эти инструкции помогут вам запустить копию проекта на локальном компьютере для разработки и тестирования.  Выполните следующие шаги, чтобы настроить свой проект.
 
-### Prerequisites
+### Перед началом
 
-To run this application, you will need to install the following software:
+Для запуска этого приложения вам потребуется установить следующее программное обеспечение:
 
 Node.js (https://nodejs.org/)
-npm (Node Package Manager), which is usually installed with Node.js
+npm (Node Package Manager), который обычно устанавливается вместе с Node.js
 
-After installation, you can check their versions to make sure everything is installed correctly:
+После установки вы можете проверить их версии, чтобы убедиться, что все установлено правильно:
 
 `bash`
 `node -v`
 `npm -v`
 
-### Installation
+### Установка 
 
-First, clone the repository:
+Сначала клонируйте репозиторий:
 
 git clone https://github.com/IvanovViktor1/react-taxi.git
 cd react-taxi
 
-Then install the required dependencies:
+Затем установите необходимые зависимости:
 
 `npm install`
 
-### Launching the application
+### Запуск приложения
 
-To start the development server, run:
+Чтобы запустить сервер разработки, запустите:
 
 `npm start`
 
-This will start the development server and the application will be available at http://localhost:3000.
+Это запустит сервер разработки, и приложение будет доступно по адресу: http://localhost:3000.
 
-### Working with the application
+### Работа с приложением
 
-Order a Taxi: Enter the address in the "From" form or click on the map to select a pickup location. If the address is not found, a red marker with "Address Not Found" will appear.
-Crew Selection: Available crews will be displayed on the map as green markers. The list of eligible crews will be sorted by distance to the pickup point.
-Order Confirmation: After selecting the appropriate crew, click "Order". Your order information will be sent, and you will receive a confirmation.
+Заказ такси: введите адрес в форму «Откуда» или нажмите на карту, чтобы выбрать место подачи.  Если адрес не найден, появится красный маркер с надписью «Адрес не найден».
+Выбор экипажа: доступные экипажи будут отображаться на карте зелеными маркерами.  Список подходящих экипажей будет отсортирован по расстоянию до пункта выдачи.
+Подтверждение заказа: После выбора подходящего экипажа нажмите «Заказать».  Информация о вашем заказе будет отправлена, и вы получите подтверждение.
 
-## Technology stack
+## Стек технологий 
 
-The project uses the following technologies:
+В проекте используются следующие технологии:
 
-- React - the library for user interfaces [React documentation](https://reactjs.org/)
-- Redux Toolkit - a set of tools for managing application state [Redux Toolkit documentation](https://redux-toolkit.js.org/)
-- React-Yandex-Map - a wrapper around the Yandex.Maps API, allows you to display Yandex.Maps in a React application [react-yandex-maps documentation](https://pbe-react-yandex-maps.vercel.app/)
-- TypeScript - JavaScript add-on for static code typing [TypeScript documentation](https://www.typescriptlang.org/)
-- Material-UI - UI component library [TypeScript documentation](https://mui.com/)
+- React - библиотека для пользовательских интерфейсов [React documentation](https://reactjs.org/)
+- Redux Toolkit - набор инструментов для управления состоянием приложения [Redux Toolkit documentation](https://redux-toolkit.js.org/)
+- React-Yandex-Map - оболочка вокруг API Яндекс.Карт, позволяет отображать Яндекс.Карты в React-приложении [react-yandex-maps documentation](https://pbe-react-yandex-maps.vercel.app/)
+- TypeScript - Надстройка над JavaScript для статической типизации кода [TypeScript documentation](https://www.typescriptlang.org/)
+- Material-UI - UI библиотека компонентов [TypeScript documentation](https://mui.com/)
 
-## Authors
+## Авторы
 
-Ivanov Viktor - GitHub profile (https://github.com/IvanovViktor1)
+Иванов Виктор - GitHub профиль (https://github.com/IvanovViktor1)
